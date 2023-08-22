@@ -1,0 +1,41 @@
+"";"NAME";"DISTILLERY";"LOCATION";"TYPE";"REGION";"FOUNDATION";"COORDINATES";"WIKIPEDIA";"RATING";"REVIEWS";"CRITIQUES";"SMOKNESS";"RICHNESS";"PRICE"
+"1";"An Cnoc";"Knockdhu";"Scotland";"Single Malt";"Highland";1894;"57.78497402327632; -1.6207674406702595";"https://en.wikipedia.org/wiki/Knockdhu";2;9;90;-1;-3;32
+"2";"Ardbeg";"Ardbeg distillery";"Scotland";"Single Malt";"Islay";1815;"55.6406114241932; -6.107878725864291";"https://en.wikipedia.org/wiki/Ardbeg_distillery";4;9;91;5;-5;46
+"3";"Auchentoshan";"Auchentoshan distillery";"Scotland";"Single Malt";"Lowland";1823;"55.922066708629245; -4.437533995096446";"https://en.wikipedia.org/wiki/Auchentoshan_distillery";4;6;91;-2;4;25
+"4";"Ballantine’s";"Pernod Ricard";"Scotland";"Blended";"Lowland";1957;"55.9659724419173; -4.568164585896366";"https://en.wikipedia.org/wiki/Ballantine%27s";2;8;81;0;2;23
+"5";"Bowmore";"Bowmore distillery";"Scotland";"Single Malt";"Islay";1779;"55.756718827510745; -6.289152434196375";"https://en.wikipedia.org/wiki/Bowmore_distillery";3;8;88;3;1;35
+"6";"Brora";"Brora distillery";"Scotland";"Single Malt";"Highland";1819;"58.02538030697375; -3.863758501818989";"https://en.wikipedia.org/wiki/Brora_distillery";4;10;95;3;0;2700
+"7";"Bunmahabhain";"Bunnahabhain distillery";"Scotland";"Single Malt";"Islay";1881;"57.325529974050674; -3.531045032007508";"https://en.wikipedia.org/wiki/Bunnahabhain_distillery";3;8;90;-4;1;75
+"8";"Bushmills";"Old Bushmills distillery";"Irland";"Blended";"Northern Ireland";1743;"55.2029699817353; -6.51675462291842";"https://en.wikipedia.org/wiki/Old_Bushmills_Distillery";3;8;89;0;0;36
+"9";"Caol Ila";"Caol Ila distillery";"Scotland";"Single Malt";"Islay";1846;"55.85421949551099; -6.108930995444943";"https://en.wikipedia.org/wiki/Caol_Ila_distillery";3;8;91;4;-4;45
+"10";"Canadian Club";"Hiram Walker-Gooderham & Worts; Ltd";"Canada";"Blended";"Canada";1897;"42.325973229888106; -83.00766769306955";"https://en.wikipedia.org/wiki/Canadian_Club";2;7;89;3;3;19
+"11";"Crown Royal";"Gimli";"Canada";"Blended";"Canada";1939;"50.654686738277206; -97.00186337315431";"https://en.wikipedia.org/wiki/Crown_Royal";2;6;85;3;3;29
+"12";"Dalwhinnie";"Dalwhinnie distillery";"Scotland";"Single Malt";"Highland";1898;"56.939722388961044; -4.238174471907238";"https://en.wikipedia.org/wiki/Dalwhinnie";3;8;87;2;0;43
+"13";"Dewar’s";"Bacardi";"Scotland";"Blended";"Multiple";1846;"56.639976131912924; -3.7503645229286118";"https://en.wikipedia.org/wiki/Dewar%27s";3;7;87;-1;-2;34
+"14";"Eagle Rare";"Buffalo Trace distillery";"USA";"Bourbon";"Kentucky";1975;"38.216843268297005; -84.86998816849622";"https://en.wikipedia.org/wiki/Eagle_Rare";2;8;89;0;1;39
+"15";"Glen Breton";"Glenora Distillery";"Canada";"Single Malt";"Canada";1989;"46.15384793203386; -61.323403104945406";"https://en.wikipedia.org/wiki/Glenora_Distillers";3;6;87;-3;3;72
+"16";"Glen Grant";"Glen Grant distillery";"Scotland";"Single Malt";"Speyside";1840;"57.530423895390676; -3.2098315749877258";"https://en.wikipedia.org/wiki/Glen_Grant_distillery";3;9;73;-1;3;28
+"17";"Glendalough";"Glendalough Irish Whiskey";"Irland";"Single Malt";"Wicklow Mountains";2011;"53.08507404362672; -6.106651680166288";"https://en.wikipedia.org/wiki/Glendalough";4;8;93;0;1;40
+"18";"Glenfiddich";"William Grant & Sons";"Scotland";"Single Malt";"Speyside";1886;"57.45489142555237; -3.1279305275414218";"https://en.wikipedia.org/wiki/Glenfiddich";3;7;89;-2;4;36
+"19";"Glenkinchie";"Glenkinchie distillery";"Scotland";"Single Malt";"Lowland";1837;"55.89083503303456; -2.890410875800266";"https://en.wikipedia.org/wiki/Glenkinchie_distillery";2;9;87;-1;1;40
+"20";"Glenmorangie";"Glenmorangie distillery";"Scotland";"Single Malt";"Highland";1843;"57.82718494841921; -4.078189123347371";"https://en.wikipedia.org/wiki/Glenmorangie_distillery";4;7;89;-2;0;37
+"21";"Glen Spey";"Glen Spey distillery";"Scotland";"Single Malt";"Speyside";1878;"57.525897705161796; -3.209503611291366";"https://en.wikipedia.org/wiki/Glen_Spey_Distillery";3;7;89;-5;-5;50
+"22";"Hakushu";"Suntory Hakushu Distillery";"Japan";"Single Malt";"Japan";1973;"35.92436401587811; 139.0640081760816";"https://en.wikipedia.org/wiki/Hakushu_distillery";3;9;89;-2;1;70
+"23";"Hibiki";"Beam Suntory";"Japan";"Blended";"Japan";1989;"34.89245195232795; 135.67488717318747";"https://en.wikipedia.org/wiki/Hibiki_(whisky)";4;9;90;-1;1;680
+"24";"Highland Park";"Highland Park distillery";"Scotland";"Single Malt";"Highland";1798;"58.96816784664513; -2.9549525213711556";"https://en.wikipedia.org/wiki/Highland_Park_distillery";5;8;91;3;1;32
+"25";"Jack Daniels";"Jack Daniel distillery";"USA";"Blended";"Teneessee";1875;"35.307698744657834; -86.36403384294879";"https://en.wikipedia.org/wiki/Jack_Daniel%27s";1;6;84;-2;0;19
+"26";"Jameson";"New Midleton distillery";"Irland";"Blended";"Irland";1780;"51.916387168298925; -8.164718280977242";"https://en.wikipedia.org/wiki/Jameson_Irish_Whiskey";3;7;87;-1;1;24
+"27";"Junglivet";"Junglivet Premium distillery";"Scotland";"Single Malt";"Islay";2017;"55.648397550298384; -6.302728542166173";"http://www.junglivet.com";5;9;92;4;4;50
+"28";"Kavalan";"Kavalan distillery";"Taiwan";"Single Malt";"Taiwan";2005;"24.714084531530208; 121.69221401455636";"https://en.wikipedia.org/wiki/Kavalan_Distillery";4;8;90;0;2;53
+"29";"King Car Conductor";"Kavalan distillery";"Taiwan";"Blended";"Taiwan";2005;"24.714084531530208; 121.69221401455636";"https://en.wikipedia.org/wiki/Kavalan_Distillery";3;9;89;-1;3;79
+"30";"Lagavulin";"Lagavulin distillery";"Scotland";"Single Malt";"Islay";1816;"55.63558155989088; -6.125421788240578";"https://en.wikipedia.org/wiki/Lagavulin_distillery";5;8;89;5;5;77
+"31";"Laphroaig";"Laphroaig distillery";"Scotland";"Single Malt";"Islay";1815;"55.632586363678016; -6.147461568083861";"https://en.wikipedia.org/wiki/Laphroaig_distillery";4;8;91;4;-4;39
+"32";"Midleton";"New Midleton distillery";"Irland";"Blended";"Irland";1825;"51.9163474599816; -8.164621723376182";"https://en.wikipedia.org/wiki/Midleton";3;9;94;-1;1;290
+"33";"Mortlach";"Mortlach distillery";"Scotland";"Single Malt";"Highland";1823;"57.443038402539656; -3.1225794615771716";"https://en.wikipedia.org/wiki/Mortlach_distillery";4;8;89;1;5;91
+"34";"Rosebank";"Rosebank distillery";"Scotland";"Single Malt";"Lowland";1789;"56.00239543962147; -3.80334445623993";"https://en.wikipedia.org/wiki/Rosebank_distillery";3;8;82;-5;-4;1100
+"35";"Royal Salute";"Strathisla distillery";"Irland";"Blended";"Irland";1953;"57.54675122889626; -2.953151083650849";"https://en.wikipedia.org/wiki/Royal_Salute_(whisky)";3;9;90;-2;2;133
+"36";"Talisker";"Talisker distillery";"Scotland";"Single Malt";"Skye";1830;"57.30240569911666; -6.356137549891923";"https://en.wikipedia.org/wiki/Talisker_distillery";3;8;91;4;3;44
+"37";"The Glenlivet";"The Glenlivet distillery";"Scotland";"Single Malt";"Speyside";1824;"57.34356592371422; -3.337880272507409";"https://en.wikipedia.org/wiki/The_Glenlivet_distillery";3;7;90;-3;4;32
+"38";"Tullamore Dew";"Tullamore D.E.W. Distillery";"Irland";"Blended";"Irland";1829;"53.25287693211202; -7.5002945956441485";"https://en.wikipedia.org/wiki/Tullamore_Dew";3;7;84;0;1;25
+"39";"Westward";"House Spirits Distillery";"USA";"Single Malt";"Oregon";2004;"46.586370138549036; -122.57746802348521";"https://en.wikipedia.org/wiki/House_Spirits_Distillery";2;6;81;-1;4;63
+"40";"Whistlepig";"WhistlePig distillery";"USA";"Double Malt";"Vermont";2007;"43.650988373838125; -72.33227827106973";"https://en.wikipedia.org/wiki/WhistlePig";2;9;90;-1;-3;67
