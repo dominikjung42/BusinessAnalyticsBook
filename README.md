@@ -12,6 +12,8 @@ The different chapters prioritize practical understanding over mathematical theo
 <br><br>
 The book does not assume that you have an academic degree or any experience with business data analytics or data science. All you need is an open mind, willingness to puzzle and think mathematically, and the willingness to write some R code. This book is your all-in-one resource to become proficient in business data analytics with R, equipped with practical skills for the real world.
 
+<br><br>
+
 <table>
   <tr>
     <!-- Image Cell -->
@@ -20,6 +22,7 @@ The book does not assume that you have an academic degree or any experience with
     </td>
     <!-- Text Description Cell -->
     <td>
+      <strong>The Modern Business Data Analyst: A Case Study Introduction into Business Analytics with CRISP-DM and R</strong>.<br>
       <strong>ISBN:</strong> ISBN 978-3-031-59906-4
       <br><br>
       For further information see the book website:<br>
