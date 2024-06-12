@@ -1,0 +1,101 @@
+---
+title: "Whisky Exploration Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(dplyr)
+library(ggplot2)
+library(readxl)
+```
+
+```{r data}
+whisky_collection = read_excel("whiskycollection.xlsx")
+```
+
+Column {.sidebar data-width=200}
+-----------------------------------------------------------------------
+
+### Sidebar
+
+```{r}
+locations = unique(whisky_collection$LOCATION)
+selectInput("selected_location", label="Whisky origin:", choices=locations)
+
+ratings = unique(whisky_collection$RATING)
+selectInput("selected_rating", label="Whisky rating:", choices=ratings)
+```
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Whisky Overview
+
+```{r}
+location = reactive({input$selected_location})
+rating = reactive({input$selected_rating})
+
+selection = reactive({whisky_collection %>%
+  filter(LOCATION == location() & RATING == rating()) %>%
+  select(NAME, DISTILLERY, REGION, TYPE, PRICE)})
+
+renderTable({selection()})
+
+```
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Price comparison
+
+```{r}
+location = reactive({input$selected_location})
+rating = reactive({input$selected_rating})
+
+selection_distilleries = reactive({
+  whisky_collection %>%
+  filter(LOCATION == location() & RATING == rating(), PRICE <= 100) %>%
+  select(NAME, DISTILLERY, REGION, TYPE, PRICE)
+  })
+
+plot_distilleries = reactive({
+  ggplot(data=selection_distilleries()) +
+  aes(x=DISTILLERY, y=PRICE) +
+  geom_bar(stat="identity") +
+  labs(x="Distillery", y="Price in EUR")
+  })
+
+renderPlot(plot_distilleries())
+```
+
+### Whisky types
+
+```{r}
+location = reactive({input$selected_location})
+rating = reactive({input$selected_rating})
+
+selection_whisky_types = reactive({
+  whisky_collection %>%
+  filter(LOCATION == location() & RATING == rating()) %>%
+  group_by(TYPE) %>% 
+  summarize(NUM=n())
+  })
+
+plot_whisky_types = reactive({
+    ggplot(data=selection_whisky_types()) +
+    aes(x="", y=NUM, fill=TYPE, label=TYPE) + 
+    geom_bar(stat = "identity", width = 1) +
+    geom_text(position=position_stack(vjust = 0.5)) +
+    coord_polar("y", start = 0) +
+    theme_void()
+  })
+
+renderPlot(plot_whisky_types())
+```
+

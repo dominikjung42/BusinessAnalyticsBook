@@ -80,14 +80,14 @@ my_data_frame
 head(dataset)
 
 # work with data ----------------------------------------------------------
-dataset = read_excel("whiskyproductionlog.xlsx")
+dataset = read_excel("productionlog_sample.xlsx")
 
-# or if dstools is installed just run
-dstools::data("whisky_collection")
+# or if dstools is installed and loaded just run
+data("productionlog_sample")
 
-view(whisky_collection)
+View(productionlog_sample)
 
-str(whisky_collection)
+str(productionlog_sample)
 
 # 1. possibility
 my_vector = c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
